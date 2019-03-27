@@ -1,0 +1,74 @@
+html {box-sizing: border-box}
+*,*::before,*::after{box-sizing: inherit}
+
+ body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }       
+
+.full {
+    width: 500px;
+    margin: auto;
+    position: relative;
+    top: 0;
+}
+
+h1 {
+    background-color: goldenrod;
+    color: black;
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#answer {
+    outline: none;
+    width:150px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    border: none;
+}
+
+#bubble {
+    position: absolute;
+    top: 50px;
+    right: 35px;
+}
+
+#calculon {
+    position: absolute;
+    top: 200px;
+    right: 160px;
+}
+
+.input {
+    outline-color: gold;
+    width:180px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* .calc {
+    width: 350px;
+    height: 100px;
+    background-color: darkgrey;
+    margin: 300px auto 0;
+} */
+
+#num1 {
+    position: absolute;
+    top: 368px;
+    left:70px;
+}
+
+#num2 {
+    position: absolute;
+    top: 368px;
+    right:70px;
+}
