@@ -32,7 +32,7 @@ h1 {
     line-height: 38px;
     top: 250px;
     right: 60px;
-    border: solid 3px red;
+    border: none;
 }
 
 #bubble {
