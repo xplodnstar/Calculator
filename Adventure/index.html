@@ -21,37 +21,42 @@
 
         <div class="calc">
             <div id="row1" class="rows">
-                <div id="r1c1" class="cols"><button id="clear">C</button></div>
-                <div id="r1c2" class="cols"></div>
+                <div id="r1c1" class="cols"><button id="clr">C</button></div>
+                <div id="r1c2" class="cols">
+                    <input type="num" name="num1" id="num1" class="inpBox">
+                    <input type="text" name="opr" id="opr" class="inpBox">
+                    <input type="num" name="num2" id="num2" class="inpBox">
+                </div>
             </div>
             <div id="row2" class="rows">
                 <div id="r2c1" class="cols"><button id="b7">7</button></div>
                 <div id="r2c2" class="cols"><button id="b8">8</button></div>
                 <div id="r2c3" class="cols"><button id="b9">9</button></div>
-                <div id="r2c4" class="cols"><button id="divd">&divide;</button></div>
+                <div id="r2c4" class="cols"><button id="divd">/</button></div>
             </div>
             <div id="row3" class="rows">
                 <div id="r3c1" class="cols"><button id="b4">4</button></div>
                 <div id="r3c2" class="cols"><button id="b5">5</button></div>
                 <div id="r3c3" class="cols"><button id="b6">6</button></div>
-                <div id="r3c4" class="cols"><button id="mult">&times;</button></div>
+                <div id="r3c4" class="cols"><button id="mult">x</button></div>
             </div>
             <div id="row4" class="rows">
                 <div id="r4c1" class="cols"><button id="b1">1</button></div>
                 <div id="r4c2" class="cols"><button id="b2">2</button></div>
                 <div id="r4c3" class="cols"><button id="b3">3</button></div>
-                <div id="r4c4" class="cols"><button id="sub">&minus;</button></div>
+                <div id="r4c4" class="cols"><button id="sub">-</button></div>
             </div>
             <div id="row5" class="rows">
                 <div id="r5c1" class="cols"><button id="b0">0</button></div>
                 <div id="r5c2" class="cols"><button id="dot">.</button></div>
-                <div id="r5c3" class="cols"><button id="equals">&equals;</button></div>
-                <div id="r5c4" class="cols"><button id="add">&plus;</button></div>
+                <div id="r5c3" class="cols"><button id="equals">=</button></div>
+                <div id="r5c4" class="cols"><button id="add">+</button></div>
             </div>
         </div>
     </div>
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
 
